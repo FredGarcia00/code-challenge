@@ -1,0 +1,21 @@
+.pagination {
+    display: flex;
+}
+
+.pagination__list {
+    list-style: none;
+    border: 1px solid #000;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px 5px 0px 5px;
+}
+
+.paginatioin__list:hover {
+    background-color: #000;
+    color: #fff;
+
+}
+
+.pagination__link{
+    text-decoration: none;
+}

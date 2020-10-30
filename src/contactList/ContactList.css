@@ -1,0 +1,8 @@
+.contactList {
+    margin: 10px 0;
+}
+
+.contactList__contacts li {
+list-style: none;
+color: #fff;
+}
