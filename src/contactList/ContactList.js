@@ -32,7 +32,7 @@ function ContactList({users}) {
             <hr/>
             <ul className="contactList__contacts">
                 {users.filter(name => {
-                //remove names that do not match current filter text
+                // below removes the names that do not match current filter text
                 return name.name.toLowerCase().indexOf(filterName.toLowerCase()) >= 0 && 
                 name.phone.toLowerCase().indexOf(filterPhoneNumber.toLowerCase()) >= 0
                 })

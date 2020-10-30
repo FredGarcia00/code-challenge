@@ -4,6 +4,8 @@ import './Pagination.css'
 function Pagination({pages, totalContacts, paginate}) {
     const pageNumbers = [];
 
+    //below calculates the logic for dynamically setting the page numbers
+    //based upon contacts available to pages set.
     for(let i = 1; i <= Math.ceil(totalContacts / pages ); i++) {
         pageNumbers.push(i)
     }
