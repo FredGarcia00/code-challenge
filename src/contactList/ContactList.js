@@ -44,9 +44,13 @@ function ContactList({users}) {
                         <div className="contactList__name">
                          name: {user.name} 
                         </div>
+                        <input placeholder={user.name} type="text"/>
+                        <button>Update name</button>
                         <div className="contactList__number">
                          number: {user.phone}
                         </div>
+                        <input type="text"/>
+                        <button>Update number</button>
                         </div>
                     </ListItem>
                     <hr/>

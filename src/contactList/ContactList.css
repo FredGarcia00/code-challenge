@@ -2,6 +2,10 @@
     margin: 10px 0;
 }
 
+.contactList__input {
+    display: flex;
+}
+
 .contactList__contacts li {
 list-style: none;
 color: #fff;
